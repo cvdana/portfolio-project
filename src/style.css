@@ -58,6 +58,11 @@ p {
   margin-top: 10px;
   background-color: var(--branding-color);
 }
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  padding: 1px 12px;
+}
 .projects {
   list-style: none;
   padding: 0px;
@@ -86,4 +91,13 @@ p {
   border-radius: 5px;
   background-color: var(--branding-color);
   color: #ffffff;
+}
+.coding-elements {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 2;
+  margin: 25px 0px 10px;
+  padding: 0px;
+  list-style: none;
 }
