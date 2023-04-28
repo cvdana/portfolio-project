@@ -1,6 +1,14 @@
+:root {
+  --branding-color: #2080b1;
+  --heading-font-family: "Roboto", sans-serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+body {
+  font-family: var(--default-font-family);
+}
 h1,
 h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--heading-font-family);
 }
 h1 {
   font-size: 60px;
@@ -18,12 +26,12 @@ h2 {
   margin: 0 auto;
   padding: 18px 30px;
   width: 200px;
-  background: #2080b1;
+  background: var(--branding-color);
   color: #ffffff;
   border-radius: 50px;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
   letter-spacing: 1px;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--heading-font-family);
   text-decoration: none;
   transition: transform 300ms;
 }
@@ -35,8 +43,5 @@ h2 {
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   height: 300px;
   margin: 0 auto;
-  background-color: #2080b1;
-}
-p {
-  font-family: "Poppins", sans-serif;
+  background-color: var(--branding-color);
 }
