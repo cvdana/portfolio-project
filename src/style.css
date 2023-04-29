@@ -84,8 +84,15 @@ p {
   height: 25px;
 }
 @media (max-width: 960px) {
-  .wrapper {
+  .hero {
     padding: 0;
   }
-  text-align: center;
+  .hero h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .wrapper {
+    padding: 0;
+    text-align: center;
+  }
 }
