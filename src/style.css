@@ -3,7 +3,7 @@
   --secondary-color: #f9f7fe;
   --heading-font-family: "Roboto", sans-serif;
   --default-font-family: "Poppins", sans-serif;
-  --p-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  --p-transition: all 250ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 body {
   font-family: var(--default-font-family);
@@ -83,7 +83,7 @@ li {
   grid-area: 1 / 1 / -1 / 7;
 }
 .description {
-  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.3);
   transition: var(--p-transition);
   position: relative;
   z-index: 2;
@@ -100,4 +100,42 @@ li {
   margin: 25px 0px 10px;
   padding: 0px;
   list-style: none;
+}
+.project-links a {
+  padding-left: 10px;
+}
+.project-links i {
+  width: 22px;
+  height: 22px;
+  margin-top: -4px;
+}
+.project-image {
+  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.8);
+  grid-area: 1 / 6 / -1 / -1;
+  position: relative;
+  z-index: 1;
+  width: 700px;
+}
+.project-image img {
+  height: 400px;
+  border-radius: 5px;
+  position: relative;
+  right: 100px;
+}
+.project-image a {
+  display: inline-block;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  color: inherit;
+  position: relative;
+  transition: var(--transition);
+}
+.project-image a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: 0px;
+  z-index: 3;
+  mix-blend-mode: screen;
 }
