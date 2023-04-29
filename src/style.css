@@ -65,3 +65,21 @@ p {
 .wrapper {
   margin: 5px 30px;
 }
+.coding-elements {
+  display: flex;
+  margin: 25px 0px 10px;
+  padding: 0px;
+  list-style: none;
+}
+.coding-elements li {
+  padding: 10px;
+  padding-left: 0;
+}
+.project-links a {
+  padding: 7px;
+  padding-left: 0px;
+}
+.project-links i {
+  width: 25px;
+  height: 25px;
+}
