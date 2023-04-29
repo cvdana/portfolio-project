@@ -61,7 +61,10 @@ p {
   margin-top: 10px;
   background-color: var(--branding-color);
 }
-
+.bitmoji-hello {
+  height: 245px;
+  transform: translate(-40px, 51px);
+}
 .wrapper {
   margin: 5px 30px;
 }
