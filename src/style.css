@@ -86,6 +86,10 @@ p {
   width: 25px;
   height: 25px;
 }
+.icon-skill {
+  height: 70px;
+  width: 70px;
+}
 @media (max-width: 960px) {
   .hero {
     padding: 0;
