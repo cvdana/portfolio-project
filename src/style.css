@@ -43,6 +43,7 @@ p {
 .skills p {
   font-size: 15px;
 }
+
 .btn-branding {
   display: flex;
   justify-content: center;
@@ -102,6 +103,7 @@ p {
   margin: 0 auto;
 }
 .my-work img {
+  position: relative;
   height: 300px;
   width: 650px;
 }
