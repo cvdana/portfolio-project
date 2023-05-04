@@ -48,7 +48,7 @@ p {
 }
 nav h4 {
   text-transform: uppercase;
-  line-height: 30px;
+  line-height: 40px;
 }
 .btn-branding {
   display: flex;
@@ -133,8 +133,17 @@ nav li {
   list-style: none;
   line-height: 40px;
   text-transform: uppercase;
+  margin-left: 15px;
 }
-
+nav a {
+  text-decoration: none;
+  color: #333;
+  transition: all ease-in-out 100ms;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
 @media (max-width: 960px) {
   .hero {
     padding: 0;
