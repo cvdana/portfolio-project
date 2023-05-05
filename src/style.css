@@ -124,7 +124,8 @@ nav h4 {
 nav {
   padding: 20px 0;
 }
-nav ul {
+nav ul,
+.small-menu-content ul {
   padding: 0;
   margin: 0;
 }
@@ -135,7 +136,8 @@ nav li {
   text-transform: uppercase;
   margin-left: 15px;
 }
-nav a {
+nav a,
+.small-menu-content a {
   text-decoration: none;
   color: #333;
   transition: all ease-in-out 100ms;
@@ -144,6 +146,15 @@ nav a:hover,
 nav li.active a {
   color: var(--branding-color);
 }
+.small-menu-content li {
+  list-style: none;
+  font-style: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-top: 5px;
+}
+
 @media (max-width: 960px) {
   .hero {
     padding: 0;
