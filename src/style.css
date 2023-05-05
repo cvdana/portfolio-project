@@ -147,11 +147,14 @@ nav li.active a {
 @media (max-width: 960px) {
   .hero {
     padding: 0;
+    padding-top: 40px;
+    padding-bottom: 60px;
   }
   .hero h1 {
     font-size: 40px;
     line-height: 50px;
   }
+
   .content-wrapper {
     padding: 0;
     text-align: center;
