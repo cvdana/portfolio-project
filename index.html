@@ -41,7 +41,7 @@
   </head>
   <body>
     <div class="container">
-      <nav class="d-flex justify-content-between">
+      <nav class="justify-content-between d-none d-md-flex">
         <h4><a href="/" title="Home">Dana Visnitchi</a></h4>
         <ul>
           <li class="active"><a href="/" title="Home">Home</a></li>
@@ -49,6 +49,32 @@
           <li><a href="/work.html" title="Projects">Project</a></li>
           <li><a href="/contact.html" title="Contact me">Contact</a></li>
         </ul>
+      </nav>
+      <div class="collapse small-menu-content" id="navbarToggleExternalContent">
+        <div class="bg p-4">
+          <h5 class="h4">Dana Visnitchi</h5>
+          <ul>
+            <li><a href="/" title="Home">Home</a></li>
+            <li><a href="/about.html" title="About me">About</a></li>
+            <li><a href="/work.html" title="Projects">Project</a></li>
+            <li><a href="/contact.html" title="Contact me">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <nav class="navbar md d-block d-md-none">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
       </nav>
     </div>
 
