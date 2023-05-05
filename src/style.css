@@ -154,7 +154,18 @@ nav li.active a {
   text-transform: uppercase;
   padding-top: 5px;
 }
-
+footer {
+  background-color: var(--secondary-color);
+  height: 80px;
+}
+footer p {
+  font-size: 16px;
+}
+.logo {
+  position: relative;
+  height: 35px;
+  bottom: 4.5px;
+}
 @media (max-width: 960px) {
   .hero {
     padding: 0;
