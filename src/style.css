@@ -184,9 +184,14 @@ footer p {
     padding: 0;
     text-align: center;
   }
+  .coding-elements {
+    display: flex;
+    justify-content: center;
+  }
   .skills p {
     font-size: 13px;
   }
+
   footer p {
     font-size: 12px;
   }
