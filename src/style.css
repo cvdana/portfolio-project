@@ -112,9 +112,15 @@ nav h4 {
   margin: 0 auto;
 }
 .my-work img {
-  position: relative;
   height: 300px;
   width: 650px;
+}
+.project-content {
+  position: relative;
+  top: -37px;
+  background-color: var(--secondary-color);
+  border: 3px double var(--branding-color);
+  border-radius: 10px;
 }
 .email a {
   text-decoration: none;
@@ -190,6 +196,14 @@ footer p {
   }
   .skills p {
     font-size: 13px;
+  }
+  .my-work img {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .project-content {
+    width: 300px;
+    margin: 0 auto;
   }
 
   footer p {
