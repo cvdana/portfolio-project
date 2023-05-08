@@ -97,6 +97,7 @@ nav h4 {
 .content-wrapper {
   margin: 5px 30px;
 }
+
 .coding-elements {
   display: flex;
   margin: 25px 0px 10px;
@@ -111,12 +112,13 @@ nav h4 {
   padding: 7px;
   padding-left: 0px;
 }
+i {
+  color: var(--branding-color);
+}
 .project-links i {
   width: 25px;
   height: 25px;
-  color: var(--branding-color);
 }
-
 .icon-skill {
   display: block;
   height: 70px;
@@ -140,9 +142,6 @@ nav h4 {
 .email a {
   text-decoration: none;
   font-family: var(--default-font-family);
-}
-.contact-container i {
-  color: var(--branding-color);
 }
 nav {
   padding: 20px 0;
