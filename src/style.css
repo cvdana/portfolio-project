@@ -220,12 +220,14 @@ footer p {
     width: 30px;
     margin: 0 auto;
   }
+
   .my-work img {
-    max-width: 500px;
-    margin: 0 auto;
+    height: 70%;
+    width: 100%;
   }
   .project-content {
     width: 300px;
+    transform: scale(60%);
     margin: 0 auto;
   }
 
