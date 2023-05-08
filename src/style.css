@@ -207,7 +207,18 @@ footer p {
     justify-content: center;
   }
   .skills p {
-    font-size: 13px;
+    font-size: 10px;
+  }
+  .skills .row {
+    display: inline-flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+  }
+  .icon-skill {
+    display: block;
+    height: 30px;
+    width: 30px;
+    margin: 0 auto;
   }
   .my-work img {
     max-width: 500px;
