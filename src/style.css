@@ -76,6 +76,7 @@ nav h4 {
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
   letter-spacing: 1px;
   font-family: var(--heading-font-family);
+  font-size: 13px;
   text-decoration: none;
   transition: transform 300ms;
 }
